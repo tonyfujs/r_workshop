@@ -5,7 +5,7 @@ transition-speed: slow
 width: 1440
 height: 900
 incremental: true
-date: September 30, 2014
+date: October 01, 2014
 css: ./theme/my_style.css
 
 
@@ -48,12 +48,7 @@ incremental: false
 
 ![](./tof/10000_feet.jpg)
 
-R & Rstudio
-========================================================
-incremental: false
 
-
-![](./tof/rstudio.png)
 
 
 Package
@@ -69,6 +64,19 @@ Allows you to do more stuff.
 ![](./tof/smartphone.jpg)
 
 
+R & Rstudio
+========================================================
+incremental: false
+
+![](./tof/rstudio.png)
+
+
+System set-up
+========================================================
+incremental: false
+
+![](./tof/r_setup.png)
+
 Get data
 ========================================================
 incremental: false
@@ -78,7 +86,25 @@ TO DO:
 - Quiz: directory, working directory, data.frame
 - Tips: Rstudio project, ., .., always use relative reference.
 
-Get data
+Get data: The working directory
+========================================================
+incremental: false
+
+Need to tell R where to look for
+
+```r
+getwd()
+list.files()
+list.files('./data')
+
+setwd('./data')
+getwd()
+list.files()
+
+setwd('..')
+getwd()
+```
+
 ========================================================
 incremental: false
 
