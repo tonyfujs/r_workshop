@@ -6,8 +6,13 @@ r_workshop
 
 ## Workshop
 ### Programming = Magic
-Live demo
-By the end of the workshop we will have built those functions
+Live demo: Create files (create_data function) and visualizations (plot_data) in real time
+By the end of the workshop you will build similar functions
+
+What are we going to do in this workshop?
+- Describe data analysis workflow: One workshop for each stage
+- Use a toy example to describe how we can implement and streamline this workflow with R
+- Along the way we will review some of R core concepts and building blocks. 
 
 ### Intro to Rstudio & Package
 R = language
@@ -15,9 +20,12 @@ Rstudio = Interface
 Package = App on your phone
 
 ### Read files in Read
+- concept of working directory
 - Read 1 file
 - List files
 - Read multiple files
+
+End with Rstudio projects + directory organization 
 
 ### Explore data
 - Summary
